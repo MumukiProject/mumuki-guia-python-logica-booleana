@@ -1,6 +1,6 @@
 ¿Y si delegamos? Podríamos separar la lógica de la siguiente manera:
- 
-```javascript
+
+```python
 function puedeJubilarse(edad, sexo, aniosAportes) {
   return cumpleEdadMinima(edad, sexo) && tieneSuficientesAportes(aniosAportes);
 }

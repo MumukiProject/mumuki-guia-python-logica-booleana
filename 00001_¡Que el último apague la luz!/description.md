@@ -4,9 +4,9 @@ Si tengo el booleano representado por `tieneHambre`, el complemento será `!tien
 
 ¿Y esto para qué sirve? :thought_balloon: Por ejemplo, para modelar casos de alternancia.
 
-```javascript
+```python
 let lamparaPrendida = true;
- 
+
 function apretarInterruptor() {
   lamparaPrendida = !lamparaPrendida;
 }

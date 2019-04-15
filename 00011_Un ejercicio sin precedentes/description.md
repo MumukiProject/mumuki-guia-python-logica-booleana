@@ -1,10 +1,10 @@
 Ya comprobaste que la operación con mayor precedencia es la negación, seguida de la conjunción y la disyunción pero ¿qué pasa si quiero alterar el orden en que se resuelven? :thought_balloon:
 
 Al igual que en matemática, podemos usar paréntesis para agrupar las operaciones que queremos que se realicen primero.
- 
+
 > Escribí la función `puedeJubilarse` que recibe la edad y el sexo de una persona, además de los años de aportes jubilatorios que posee:
 
-> ```javascript
+> ```python
 > ム puedeJubilarse(62, 'F', 34)
 > true
 > ```
