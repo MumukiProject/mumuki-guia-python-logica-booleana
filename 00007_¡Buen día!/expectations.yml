@@ -1,4 +1,4 @@
 ---
 expectations:
-- binding: sonMediosHermanos
+- binding: son_medio_hermanos
   inspection: HasBinding

@@ -1,6 +1,6 @@
 ---
 expectations:
-- binding: puedeJubilarse
+- binding: puede_jubilarse
   inspection: HasBinding
 - binding: "*"
   inspection: Except:DoesTypeTest

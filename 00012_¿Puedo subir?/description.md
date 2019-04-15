@@ -3,11 +3,11 @@ En un parque de diversiones de la ciudad instalaron una nueva montaña rusa :rol
 * Alcanzar la altura mínima de 1.5m (o 1.2m si está acompañada por un adulto)
 * No tener ninguna afección cardíaca
 
-> Definí la función de 3 parámetros `puedeSubirse` que recibe una altura de una persona en metros, si está acompañada por un adulto y si tiene alguna afección cardíaca. Ejemplo:
+> Definí la función de 3 parámetros `puede_subirse` que recibe una altura de una persona en metros, si está acompañada por un adulto y si tiene alguna afección cardíaca. Ejemplo:
 >
 > ```python
-> ム puedeSubirse(1.7, false, true)
-> false // no puede subirse
->       // porque aunque tiene mas de 1.5m,
->       // tiene una afección cardíaca
+> ム puede_subirse(1.7, False, True)
+> False # no puede subirse
+>       # porque aunque tiene mas de 1.5m,
+>       # tiene una afección cardíaca
 > ```

@@ -1,8 +1,8 @@
 Ahora pensemos cómo sería la tabla de verdad que representa el comportamiento de la función que acabás de hacer.
- 
-Las proposiciones serán `tienenLaMismaMadre` y `tienenElMismoPadre`, y los valores de verdad que porten dependerán de qué dos personas estén evaluando.
 
-El booleano final resultará de operarlas mediante `sonMediosHermanos`:
+Las proposiciones serán `tienen_la_misma_madre` y `tienen_el_mismo_padre`, y los valores de verdad que porten dependerán de qué dos personas estén evaluando.
+
+El booleano final resultará de operarlas mediante `son_medio_hermanos`:
 
 <table class="table table-striped table-bordered table-condensed text-center">
   <tr>
@@ -32,8 +32,8 @@ El booleano final resultará de operarlas mediante `sonMediosHermanos`:
   </tr>
 </table>
 
-> Probá tu función `sonMediosHermanos` con los siguientes valores y comprobá si se comporta como la tabla:
- 
->* `ム sonMediosHermanos(arcadio, aurelianoJose)`
->* `ム sonMediosHermanos(aurelianoSegundo, remedios)`
->* `ム sonMediosHermanos(aurelianoJose, remedios)`
+> Probá tu función `son_medio_hermanos` con los siguientes valores y comprobá si se comporta como la tabla:
+
+>* `ム son_medio_hermanos(arcadio, aureliano_jose)`
+>* `ム son_medio_hermanos(aureliano_segundo, remedios)`
+>* `ム son_medio_hermanos(aureliano_jose, remedios)`

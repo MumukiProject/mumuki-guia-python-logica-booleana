@@ -1,19 +1,19 @@
-it("un filosofo griego que camina 5kms al día es un peripatético", function() {
-  assert.equal((esPeripatetico("filosofo", "griego", 5) || esPeripatetico("filósofo", "griego", 5)), true);
-})
+def test_un_filosofo_griego_que_camina_5kms_al_día_es_un_peripatético(self):
+  self.assertEqual((es_peripatetico("filosofo", "griego", 5) or es_peripatetico("filósofo", "griego", 5)), True)
 
-it("un filosofo griego que camina 2kms al día no es un peripatético", function() {
-  assert.equal((esPeripatetico("filosofo", "griego", 2) || esPeripatetico("filósofo", "griego", 2)), false);
-})
 
-it("un filosofo argentino que camina 5kms al día no es un peripatético", function() {
-  assert.equal(esPeripatetico("filosofo", "argentino", 5), false);
-})
+def test_un_filosofo_griego_que_camina_2kms_al_día_no_es_un_peripatético(self):
+  self.assertEqual((es_peripatetico("filosofo", "griego", 2) or es_peripatetico("filósofo", "griego", 2)), False)
 
-it("un atleta griego que camina 10kms al día no es un peripatético", function() {
-  assert.equal(esPeripatetico("atleta", "griego", 10), false);
-})
 
-it("un profesor colombiano que camina 1km al día no es un peripatético", function() {
-  assert.equal(esPeripatetico("profesor", "colombiano", 1), false);
-})
+def test_un_filosofo_argentino_que_camina_5kms_al_día_no_es_un_peripatético(self):
+  self.assertEqual(es_peripatetico("filosofo", "argentino", 5), False)
+
+
+def test_un_atleta_griego_que_camina_10kms_al_día_no_es_un_peripatético(self):
+  self.assertEqual(es_peripatetico("atleta", "griego", 10), False)
+
+
+def test_un_profesor_colombiano_que_camina_1km_al_día_no_es_un_peripatético(self):
+  self.assertEqual(es_peripatetico("profesor", "colombiano", 1), False)
+

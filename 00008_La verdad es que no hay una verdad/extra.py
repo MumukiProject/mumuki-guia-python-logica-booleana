@@ -1,91 +1,90 @@
-const mariaDeLosRemedios = {
-  nombre: "María De Los Remedios"
-};
+maria_de_los_remedios = {
+  'nombre': "María De Los Remedios"
+}
 
-const pedroTernera = {
-  nombre: "Pedro Ternera"
-};
+pedro_ternera = {
+  'nombre': "Pedro Ternera"
+}
 
-const sofiaMontiel = {
-  nombre: "Sofía Montiel"
-};
+sofia_montiel = {
+  'nombre': "Sofía Montiel"
+}
 
-const arturoDeLaPiedad = {
-  nombre: "Arturo De La Piedad"
-};
+arturo_de_la_piedad = {
+  'nombre': "Arturo De La Piedad"
+}
 
-const pilarTernera = {
-  nombre: "Pilar Ternera",
-  madre: mariaDeLosRemedios,
-  padre: pedroTernera
-};
+pilar_ternera = {
+  'nombre': "Pilar Ternera",
+  'madre': maria_de_los_remedios,
+  'padre': pedro_ternera
+}
 
-const ursulaIguaran = {
-  nombre: "Úrsula Iguarán"
-};
+ursula_iguaran = {
+  'nombre': "Úrsula Iguarán"
+}
 
-const joseArcadioPadre = {
-  nombre: "José Arcadio"
-};
+jose_arcadio_padre = {
+  'nombre': "José Arcadio"
+}
 
-const joseArcadio = {
-  nombre: "José Arcadio",
-  madre: ursulaIguaran,
-  padre: joseArcadioPadre
-};
+jose_arcadio = {
+  'nombre': "José Arcadio",
+  'madre': ursula_iguaran,
+  'padre': jose_arcadio_padre
+}
 
-const coronelAureliano = {
-  nombre: "Coronel Aureliano",
-  madre: ursulaIguaran,
-  padre: joseArcadioPadre
-};
+coronel_aureliano = {
+  'nombre': "Coronel Aureliano",
+  'madre': ursula_iguaran,
+  'padre': jose_arcadio_padre
+}
 
-const sofiaDeLaPiedad = {
-  nombre: "Sofía De La Piedad",
-  madre: sofiaMontiel,
-  padre: arturoDeLaPiedad
-};
+sofia_de_la_piedad = {
+  'nombre': "Sofía De La Piedad",
+  'madre': sofia_montiel,
+  'padre': arturo_de_la_piedad
+}
 
-const arcadio = {
-  nombre: "Arcadio",
-  madre: pilarTernera,
-  padre: joseArcadio
-};
+arcadio = {
+  'nombre': "Arcadio",
+  'madre': pilar_ternera,
+  'padre': jose_arcadio
+}
 
-const aurelianoJose = {
-  nombre: "Arcadio",
-  madre: pilarTernera,
-  padre: coronelAureliano
-};
+aureliano_jose = {
+  'nombre': "Arcadio",
+  'madre': pilar_ternera,
+  'padre': coronel_aureliano
+}
 
-const aurelianoSegundo = {
-  nombre: "Aureliano Segundo",
-  madre: sofiaDeLaPiedad,
-  padre: arcadio
-};
+aureliano_segundo = {
+  'nombre': "Aureliano Segundo",
+  'madre': sofia_de_la_piedad,
+  'padre': arcadio
+}
 
-const remedios = {
-  nombre: "Remedios",
-  madre: sofiaDeLaPiedad,
-  padre: arcadio
-};
+remedios = {
+  'nombre': "Remedios",
+  'madre': sofia_de_la_piedad,
+  'padre': arcadio
+}
 
-function madreDe(persona) {
-  return persona.madre.nombre;
-};
+def madre_de(persona):
+  return persona['madre']['nombre']
 
-function padreDe(persona) {
-  return persona.padre.nombre;
-};
 
-function tienenElMismoPadre(unaPersona, otraPersona) {
-  return padreDe(unaPersona) == padreDe(otraPersona);
-};
- 
-function tienenLaMismaMadre(unaPersona, otraPersona) {
-  return madreDe(unaPersona) == madreDe(otraPersona);
-};
- 
-function sonMediosHermanos(unaPersona, otraPersona) {
-  return tienenLaMismaMadre(unaPersona, otraPersona) && !tienenElMismoPadre(unaPersona, otraPersona) || !tienenLaMismaMadre(unaPersona, otraPersona) && tienenElMismoPadre(unaPersona, otraPersona);
-};
+def padre_de(persona):
+  return persona['padre']['nombre']
+
+def tienen_el_mismo_padre(una, otra):
+  return padre_de(una) == padre_de(otra)
+
+
+def tienen_la_misma_madre(una, otra):
+  return madre_de(una) == madre_de(otra)
+
+
+def son_medio_hermanos(una, otra):
+  return tienen_la_misma_madre(una, otra) and not tienen_el_mismo_padre(una, otra) or not tienen_la_misma_madre(una, otra) and tienen_el_mismo_padre(una, otra)
+

@@ -1,4 +1,4 @@
 ---
 expectations:
-- binding: puedeSubirse
+- binding: puede_subirse
   inspection: HasBinding

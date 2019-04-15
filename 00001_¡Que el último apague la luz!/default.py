@@ -1,1 +1,1 @@
-let camaArriba = true;
+cama_arriba = True

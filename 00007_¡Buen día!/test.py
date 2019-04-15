@@ -1,15 +1,12 @@
-it("arcadio y aurelianoJose son medios hermanos", function() {
-  assert.equal(sonMediosHermanos(arcadio, aurelianoJose), true);
-})
+def test_arcadio_y_aureliano_jose_son_medios_hermanos_(self):
+  self.assertEqual(son_medio_hermanos(arcadio, aureliano_jose), True)
 
-it("aurelianoSegundo y remedios no son medios hermanos", function() {
-  assert.equal(sonMediosHermanos(aurelianoSegundo, remedios), false);
-})
+def test_aureliano_segundo_y_remedios_no_son_medios_hermanos(self):
+  self.assertEqual(son_medio_hermanos(aureliano_segundo, remedios), False)
 
-it("aurelianoSegundo y aurelianoJose no son medios hermanos", function() {
-  assert.equal(sonMediosHermanos(aurelianoSegundo, aurelianoJose), false);
-})
+def test_aureliano_segundo_y_aureliano_jose_no_son_medios_hermanos(self):
+  self.assertEqual(son_medio_hermanos(aureliano_segundo, aureliano_jose), False)
 
-it("remedios y arcadio no son medios hermanos", function() {
-  assert.equal(sonMediosHermanos(remedios, arcadio), false);
-})
+def test_remedios_y_arcadio_no_son_medios_hermanos(self):
+  self.assertEqual(son_medio_hermanos(remedios, arcadio), False)
+

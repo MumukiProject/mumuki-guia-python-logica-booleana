@@ -1,1 +1,1 @@
-Quizás sea más fácil definir `esFinDeSemana` y luego `esDiaDeSemana` a partir de ella.
+Quizás sea más fácil definir `es_fin_de_semana` y luego `es_dia_de_semana` a partir de ella.

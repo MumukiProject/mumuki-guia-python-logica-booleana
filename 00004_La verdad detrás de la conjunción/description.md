@@ -30,10 +30,10 @@ En la lógica booleana, se puede definir el comportamiento de un operador con un
 
 En el mundo de la lógica estas expresiones se llaman _proposiciones_. Pero… ¿qué cosas pueden ser una proposición? :thought_balloon: Sólo hace falta que porten un valor de verdad, es decir, cualquier expresión booleana puede ser una proposición.
 
-> ¿Nos creés? Probá en la consola tu función `esPeripatetico` con los siguientes valores y comprobá si se comporta como en la tabla:
-> 
->* `ム esPeripatetico("filosofo", "griego", 5)`
->* `ム esPeripatetico("atleta", "argentino", 10)`
->* `ム esPeripatetico("filosofo", "argentino", 3)`
->* `ム esPeripatetico("docente", "canadiense", 1)`
+> ¿Nos creés? Probá en la consola tu función `es_peripatetico` con los siguientes valores y comprobá si se comporta como en la tabla:
+>
+>* `ム es_peripatetico("filosofo", "griego", 5)`
+>* `ム es_peripatetico("atleta", "argentino", 10)`
+>* `ム es_peripatetico("filosofo", "argentino", 3)`
+>* `ム es_peripatetico("docente", "canadiense", 1)`
 

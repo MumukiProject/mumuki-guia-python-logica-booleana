@@ -1,16 +1,16 @@
 ---
 expectations:
-- binding: estaCerrado
+- binding: esta_cerrado
   inspection: HasBinding
-- binding: esFinDeSemana
+- binding: es_fin_de_semana
   inspection: HasBinding
-- binding: esDiaDeSemana
+- binding: es_dia_de_semana
   inspection: HasBinding
 - binding: "*"
   inspection: Except:DoesTypeTest
-- binding: esDiaDeSemana
-  inspection: Uses:esFinDeSemana
+- binding: es_dia_de_semana
+  inspection: Uses:es_fin_de_semana
 - binding: "*"
   inspection: Not:UsesIf
 - binding: "*"
-  inspection: Uses:dentroDeHorarioBancario
+  inspection: Uses:dentro_de_horario_bancario

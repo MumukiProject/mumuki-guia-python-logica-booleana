@@ -1,31 +1,31 @@
-it("alguien de 20 años es mayor de edad", function() {
-  assert.equal(esMayorDeEdad(20), true);
-})
+def test_alguien_de_20_años_es_mayor_de_edad(self):
+  self.assertEqual(es_mayor_de_edad(20), True)
 
-it("alguien de 18 años es mayor de edad", function() {
-  assert.equal(esMayorDeEdad(18), true);
-})
 
-it("alguien de 17 años no es mayor de edad", function() {
-  assert.equal(esMayorDeEdad(17), false);
-})
+def test_alguien_de_18_años_es_mayor_de_edad(self):
+  self.assertEqual(es_mayor_de_edad(18), True)
 
-it("alguien de 16 años no es mayor de edad", function() {
-  assert.equal(esMayorDeEdad(16), false);
-})
 
-it("alguien de 20 años no es menor de edad", function() {
-  assert.equal(esMenorDeEdad(20), false);
-})
+def test_alguien_de_17_años_no_es_mayor_de_edad(self):
+  self.assertEqual(es_mayor_de_edad(17), False)
 
-it("alguien de 18 años no es menor de edad", function() {
-  assert.equal(esMenorDeEdad(18), false);
-})
 
-it("alguien de 17 años es menor de edad", function() {
-  assert.equal(esMenorDeEdad(17), true);
-})
+def test_alguien_de_16_años_no_es_mayor_de_edad(self):
+  self.assertEqual(es_mayor_de_edad(16), False)
 
-it("alguien de 16 años es menor de edad", function() {
-  assert.equal(esMenorDeEdad(16), true);
-})
+
+def test_alguien_de_20_años_no_es_menor_de_edad(self):
+  self.assertEqual(es_menor_de_edad(20), False)
+
+
+def test_alguien_de_18_años_no_es_menor_de_edad(self):
+  self.assertEqual(es_menor_de_edad(18), False)
+
+
+def test_alguien_de_17_años_es_menor_de_edad(self):
+  self.assertEqual(es_menor_de_edad(17), True)
+
+
+def test_alguien_de_16_años_es_menor_de_edad(self):
+  self.assertEqual(es_menor_de_edad(16), True)
+

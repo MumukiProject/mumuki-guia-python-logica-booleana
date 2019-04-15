@@ -1,3 +1,3 @@
-function esPeripatetico(profesion, nacionalidad, kms) {
-  return profesion == "filosofo" && nacionalidad == "griego" && kms > 2;
-}
+def es_peripatetico(profesion, nacionalidad, kms:
+  return profesion == "filosofo" and nacionalidad == "griego" and kms > 2
+

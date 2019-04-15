@@ -2,11 +2,11 @@ Ya comprobaste que la operación con mayor precedencia es la negación, seguida 
 
 Al igual que en matemática, podemos usar paréntesis para agrupar las operaciones que queremos que se realicen primero.
 
-> Escribí la función `puedeJubilarse` que recibe la edad y el sexo de una persona, además de los años de aportes jubilatorios que posee:
+> Escribí la función `puede_jubilarse` que recibe la edad y el sexo de una persona, además de los años de aportes jubilatorios que posee:
 
 > ```python
-> ム puedeJubilarse(62, 'F', 34)
-> true
+> ム puede_jubilarse(62, 'F', 34)
+> True
 > ```
 
 > El mínimo de edad para realizar el trámite para las mujeres es de 60 años, mientras que para los hombres es 65. En ambos casos, se deben contar con al menos 30 años de aportes.

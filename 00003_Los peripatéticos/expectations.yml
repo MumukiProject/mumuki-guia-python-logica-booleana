@@ -1,6 +1,6 @@
 ---
 expectations:
-- binding: esPeripatetico
+- binding: es_peripatetico
   inspection: HasBinding
 - binding: "*"
   inspection: Except:DoesTypeTest

@@ -1,8 +1,8 @@
 ---
 expectations:
-- binding: esMayorDeEdad
+- binding: es_mayor_de_edad
   inspection: HasBinding
-- binding: esMenorDeEdad
+- binding: es_menor_de_edad
   inspection: HasBinding
-- inspection: HasUsage:esMayorDeEdad
-  binding: esMenorDeEdad
+- inspection: HasUsage:es_mayor_de_edad
+  binding: es_menor_de_edad

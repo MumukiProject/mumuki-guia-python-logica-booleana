@@ -1,15 +1,15 @@
-it("la disyunción lógica excluyente entre true y true da false", function() {
-  assert.equal(xor(true, true), false);
-})
+def test_la_disyunción_lógica_excluyente_entre_True_y_True_da_False(self):
+  self.assertEqual(xor(True, True), False)
 
-it("la disyunción lógica excluyente entre true y false da true", function() {
-  assert.equal(xor(true, false), true);
-})
 
-it("la disyunción lógica excluyente entre false y true da true", function() {
-  assert.equal(xor(false, true), true);
-})
+def test_la_disyunción_lógica_excluyente_entre_True_y_False_da_True(self):
+  self.assertEqual(xor(True, False), True)
 
-it("la disyunción lógica excluyente entre false y false da false", function() {
-  assert.equal(xor(false, false), false);
-})
+
+def test_la_disyunción_lógica_excluyente_entre_False_y_True_da_True(self):
+  self.assertEqual(xor(False, True), True)
+
+
+def test_la_disyunción_lógica_excluyente_entre_False_y_False_da_False(self):
+  self.assertEqual(xor(False, False), False)
+

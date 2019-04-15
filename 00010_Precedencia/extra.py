@@ -1,14 +1,14 @@
-function cuotas(tarjeta) {
-  switch(tarjeta) {
+def cuotas(tarjeta:
+  switch(tarjeta:
     case "visa":
-      return 6;
+      return 6
     case "mastercard":
-      return 2;
+      return 2
     default:
-      return 1;
-  }
-}
+      return 1
 
-function pagaConTarjeta(seCobraInteres, tarjeta, efectivoDisponible) {
-  return !seCobraInteres && cuotas(tarjeta) >= 3 || efectivoDisponible < 100;
-}
+
+
+def paga_con_tarjeta(seCobraInteres, tarjeta, efectivoDisponible:
+  return !seCobraInteres and cuotas(tarjeta) >= 3 or efectivoDisponible < 100
+

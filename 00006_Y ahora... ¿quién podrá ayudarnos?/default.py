@@ -1,3 +1,3 @@
-function estaCerrado(esFeriado, dia, horario) {
-  // ... escribí tu solución acá ...
-}
+def esta_cerrado(es_feriado, dia, horario):
+  # ... escribí tu solución acá ...
+

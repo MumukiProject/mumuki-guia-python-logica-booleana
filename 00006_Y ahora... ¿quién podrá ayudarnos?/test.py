@@ -1,23 +1,23 @@
-it("un lunes feriado a las 14hs el banco está cerrado", function() {
-  assert.equal(estaCerrado(true, "lunes", 14), true);
-})
+def test_un_lunes_feriado_a_las_14hs_el_banco_está_cerrado(self):
+  self.assertEqual(esta_cerrado(True, "lunes", 14), True)
 
-it("un miércoles feriado a las 20hs el banco está cerrado", function() {
-  assert.equal(estaCerrado(true, "miercoles", 20), true);
-})
 
-it("un jueves corriente a las 13hs el banco no está cerrado", function() {
-  assert.equal(estaCerrado(false, "jueves", 13), false);
-})
+def test_un_miércoles_feriado_a_las_20hs_el_banco_está_cerrado(self):
+  self.assertEqual(esta_cerrado(True, "miercoles", 20), True)
 
-it("un sábado corriente a las 11hs el banco está cerrado", function() {
-  assert.equal(estaCerrado(false, "sabado", 11), true);
-})
 
-it("un domingo corriente a las 19hs el banco está cerrado", function() {
-  assert.equal(estaCerrado(false, "domingo", 19), true);
-})
+def test_un_jueves_corriente_a_las_13hs_el_banco_no_estácerrado"(self):
+  self.assertEqual(esta_cerrado(False, "jueves", 13), False)
 
-it("un martes corriente a las 16hs el banco está cerrado", function() {
-  assert.equal(estaCerrado(false, "martes", 16), true);
-})
+
+def test_un_sábado_corriente_a_las_11hs_el_banco_está_cerrado(self):
+  self.assertEqual(esta_cerrado(False, "sabado", 11), True)
+
+
+def test_un_domingo_corriente_a_las_19hs_el_banco_está_cerrado(self):
+  self.assertEqual(esta_cerrado(False, "domingo", 19), True)
+
+
+def test_un_martes_corriente_a_las_16hs_el_banco_está_cerrado(self):
+  self.assertEqual(esta_cerrado(False, "martes", 16), True)
+

@@ -1,6 +1,6 @@
 ---
 expectations:
 - inspection: HasBinding
-  binding: jugarEnElHospital
-- binding: camaArriba
+  binding: jugar_en_el_hospital
+- binding: cama_arriba
   inspection: HasBinding

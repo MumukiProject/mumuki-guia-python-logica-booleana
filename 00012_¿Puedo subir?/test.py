@@ -1,19 +1,15 @@
-it("una persona que mide 1.5m, no está acompañada por un adulto y no tiene afecciones cardíacas puede subirse a la atracción", function() {
-  assert.equal(puedeSubirse(1.5, false, false), true);
-})
+def test_una_persona_que_mide_1_5m_no_esta_acompaniada_por_un_adulto_y_no_tiene_afecciones_cardiacas_puede_subirse_a_la_atraccion(self):
+  self.assertEqual(puede_subirse(1.5, False, False), True)
 
-it("una persona que mide 1.7m, no está acompañada por un adulto y tiene afecciones cardíacas no puede subirse a la atracción", function() {
-  assert.equal(puedeSubirse(1.7, false, true), false);
-})
+def test_una_persona_que_mide_1_7m_no_esta_acompaniada_por_un_adulto_y_tiene_afecciones_cardiacas_no_puede_subirse_a_la_atraccion(self):
+  self.assertEqual(puede_subirse(1.7, False, True), False)
 
-it("una persona que mide 1.2m, está acompañada por un adulto y no tiene afecciones cardíacas puede subirse a la atracción", function() {
-  assert.equal(puedeSubirse(1.2, true, false), true);
-})
+def test_una_persona_que_mide_1_2m_esta_acompaniada_por_un_adulto_y_no_tiene_afecciones_cardiacas_puede_subirse_a_la_atraccion(self):
+  self.assertEqual(puede_subirse(1.2, True, False), True)
 
-it("una persona que mide 1.2m, no está acompañada por un adulto y no tiene afecciones cardíacas no puede subirse a la atracción", function() {
-  assert.equal(puedeSubirse(1.2, false, false), false);
-})
+def test_una_persona_que_mide_1_2m_no_esta_acompaniada_por_un_adulto_y_no_tiene_afecciones_cardiacas_no_puede_subirse_a_la_atraccion(self):
+  self.assertEqual(puede_subirse(1.2, False, False), False)
 
-it("una persona que mide 1.1m, está acompañada por un adulto y no tiene afecciones cardíacas no puede subirse a la atracción", function() {
-  assert.equal(puedeSubirse(1.1, true, false), false);
-})
+def test_una_persona_que_mide_1_1m_esta_acompaniada_por_un_adulto_y_no_tiene_afecciones_cardiacas_no_puede_subirse_a_la_atraccion(self):
+  self.assertEqual(puede_subirse(1.1, True, False), False)
+

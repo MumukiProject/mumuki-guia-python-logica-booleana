@@ -11,14 +11,13 @@ Al igual que en matemática, cuando usamos operadores lógicos las expresiones s
 Teniendo definida la función:
 
 ```python
-function pagaConTarjeta(seCobraInteres, tarjeta, efectivoDisponible) {
-  return !seCobraInteres && cuotas(tarjeta) >= 3 || efectivoDisponible < 100;
-}
+def paga_con_tarjeta(se_cobra_interes, tarjeta, efectivo_disponible):
+  return not se_cobra_interes and cuotas(tarjeta) >= 3 or efectivo_disponible < 100
 ```
 
 > Probala en la consola con los valores:
 
->* `ム pagaConTarjeta(true, "visa", 320)`
->* `ム pagaConTarjeta(false, "visa", 80)`
->* `ム pagaConTarjeta(true, "mastercard", 215)`
->* `ム pagaConTarjeta(true, "mastercard", 32)`
+>* `ム paga_con_tarjeta(True, "visa", 320)`
+>* `ム paga_con_tarjeta(False, "visa", 80)`
+>* `ム paga_con_tarjeta(True, "mastercard", 215)`
+>* `ム paga_con_tarjeta(True, "mastercard", 32)`
