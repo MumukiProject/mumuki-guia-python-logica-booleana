@@ -11,24 +11,24 @@ El booleano final resultará de operarlas mediante `son_medio_hermanos`:
     <th class ="text-center" style="padding: 5px 8px">son medios hermanos</th>
   </tr>
   <tr>
-    <td>true</td>
-    <td>true</td>
-    <td>false</td>
+    <td>True</td>
+    <td>True</td>
+    <td>False</td>
   </tr>
   <tr>
-    <td>true</td>
-    <td>false</td>
-    <td>true</td>
+    <td>True</td>
+    <td>False</td>
+    <td>True</td>
   </tr>
   <tr>
-    <td>false</td>
-    <td>true</td>
-    <td>true</td>
+    <td>False</td>
+    <td>True</td>
+    <td>True</td>
   </tr>
   <tr>
-    <td>false</td>
-    <td>false</td>
-    <td>false</td>
+    <td>False</td>
+    <td>False</td>
+    <td>False</td>
   </tr>
 </table>
 
