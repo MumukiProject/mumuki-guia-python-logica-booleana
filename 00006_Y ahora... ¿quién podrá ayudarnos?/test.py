@@ -7,7 +7,7 @@ def test_un_miércoles_feriado_a_las_20hs_el_banco_esta_cerrado(self):
 
 
 def test_un_jueves_corriente_a_las_13hs_el_banco_no_estacerrado"(self):
-  self.assertTrue(not esta_cerrado(False, "jueves", 13))
+  self.assertFalse(esta_cerrado(False, "jueves", 13))
 
 
 def test_un_sabado_corriente_a_las_11hs_el_banco_esta_cerrado(self):
