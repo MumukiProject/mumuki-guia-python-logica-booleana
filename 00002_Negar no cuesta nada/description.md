@@ -8,4 +8,4 @@ def es_impar(numero):
 
 ```
 
-> ¡Ahora te toca a vos! Definí `es_mayor_de_edad` y luego `es_menor_de_edad` a partir de ella.
+> ¡Ahora te toca a vos! Definí la función `es_mayor_de_edad` y luego `es_menor_de_edad` a partir de ella.
