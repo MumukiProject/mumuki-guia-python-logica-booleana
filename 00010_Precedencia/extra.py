@@ -1,5 +1,5 @@
-def cuotas(tarjeta:
-  switch(tarjeta:
+def cuotas(tarjeta):
+  switch(tarjeta):
     case "visa":
       return 6
     case "mastercard":
@@ -9,6 +9,6 @@ def cuotas(tarjeta:
 
 
 
-def paga_con_tarjeta(seCobraInteres, tarjeta, efectivoDisponible:
-  return !seCobraInteres and cuotas(tarjeta) >= 3 or efectivoDisponible < 100
+def paga_con_tarjeta(se_cobra_interes, tarjeta, efectivo_disponible):
+  return not se_cobra_interes and cuotas(tarjeta) >= 3 or efectivo_disponible < 100
 
