@@ -5,6 +5,7 @@
   
   
   def test_si_la_cama_estaba_abajo_al_ejecutar_jugar_en_el_hospital_pasa_a_estar_arriba(self):
+    global cama_arriba
     cama_arriba = False
     jugar_en_el_hospital()
     self.assertTrue(cama_arriba)
