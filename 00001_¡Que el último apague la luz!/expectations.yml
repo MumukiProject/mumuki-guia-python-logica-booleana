@@ -1,6 +1,8 @@
 ---
 expectations:
-- inspection: HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  inspection: HasBinding
   binding: jugar_en_el_hospital
-- binding: cama_arriba
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: cama_arriba
   inspection: HasBinding
