@@ -3,7 +3,7 @@
     self.assertTrue(esta_cerrado(True, "lunes", 14))
   
   
-  def test_un_miércoles_feriado_a_las_20hs_el_banco_esta_cerrado(self):
+  def test_un_miercoles_feriado_a_las_20hs_el_banco_esta_cerrado(self):
     self.assertTrue(esta_cerrado(True, "miercoles", 20))
   
   
