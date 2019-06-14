@@ -4,5 +4,5 @@ expectations:
   binding: jugar_en_el_hospital
   inspection: HasBinding
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: cama_arriba
-  inspection: HasBinding
+  binding: jugar_en_el_hospital
+  inspection: Assigns:cama_arriba
