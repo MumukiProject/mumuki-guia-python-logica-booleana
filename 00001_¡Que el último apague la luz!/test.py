@@ -1,18 +1,18 @@
   
-  def test_si_la_cama_estaba_arriba_al_ejecutar_jugar_en_el_hospital_pasa_a_estar_abajo(self):
-    jugar_en_el_hospital()
-    self.assertFalse(cama_arriba)
+  def test_si_la_mochila_estaba_abierta_al_ejecutar_usar_cierre_pasa_a_estar_cerrada(self):
+    usar_cierre()
+    self.assertFalse(mochila_abierta)
   
   
-  def test_si_la_cama_estaba_abajo_al_ejecutar_jugar_en_el_hospital_pasa_a_estar_arriba(self):
-    global cama_arriba
-    cama_arriba = False
-    jugar_en_el_hospital()
-    self.assertTrue(cama_arriba)
+  def test_si_la_mochila_estaba_cerrada_al_ejecutar_usar_cierre_pasa_a_estar_abierta(self):
+    global mochila_abierta
+    mochila_abierta = False
+    usar_cierre()
+    self.assertTrue(mochila_abierta)
   
   
-  def test_si_la_cama_estaba_arriba_al_ejecutar_jugar_en_el_hospital_dos_veces_sigue_estando_arriba(self):
-    jugar_en_el_hospital()
-    jugar_en_el_hospital()
-    self.assertTrue(cama_arriba)
+  def test_si_la_mochila_estaba_abierta_al_ejecutar_usar_cierre_dos_veces_sigue_estando_abierta(self):
+    usar_cierre()
+    usar_cierre()
+    self.assertTrue(mochila_abierta)
   

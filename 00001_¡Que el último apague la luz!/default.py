@@ -1,1 +1,1 @@
-cama_arriba = True
+mochila_abierta = True
