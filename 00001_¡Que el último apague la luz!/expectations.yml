@@ -6,3 +6,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: usar_cierre
   inspection: Assigns:mochila_abierta
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: usarCierre
+  inspection: Not:UsesIf
