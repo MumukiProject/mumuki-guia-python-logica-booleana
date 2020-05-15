@@ -32,8 +32,8 @@ En el mundo de la lógica estas expresiones se llaman _proposiciones_. Pero… �
 
 > Para comprobarlo, probá en la consola tu función `es_peripatetico` con los siguientes valores y comprobá si se comporta como en la tabla:
 >
->* `ム es_peripatetico("filosofo", "griego", 5)`
+>* `ム es_peripatetico("filósofo", "griego", 5)`
 >* `ム es_peripatetico("atleta", "argentino", 10)`
->* `ム es_peripatetico("filosofo", "argentino", 3)`
+>* `ム es_peripatetico("filósofo", "argentino", 3)`
 >* `ム es_peripatetico("docente", "canadiense", 1)`
 
