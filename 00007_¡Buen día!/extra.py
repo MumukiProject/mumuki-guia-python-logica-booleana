@@ -28,6 +28,30 @@ jose_arcadio_padre = {
   'nombre': "José Arcadio"
 }
 
+const juan_perez = {
+  'nombre': "Juan Perez"
+}
+
+const maria_rodriguez = {
+  'nombre': "Maria Rodriguez"
+}
+
+const dora_ramirez = {
+  'nombre': "Dora Ramirez"
+}
+
+const felipe_perez = {
+  'nombre': "Felipe Perez",
+  'madre': maria_rodriguez,
+  'padre': juan_perez
+}
+
+const martin_perez = {
+  'nombre': "Martín Perez",
+  'madre': dora_ramirez,
+  'padre': juan_perez
+}
+
 jose_arcadio = {
   'nombre': "José Arcadio",
   'madre': ursula_iguaran,

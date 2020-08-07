@@ -10,4 +10,7 @@
   
   def test_remedios_y_arcadio_no_son_medios_hermanos(self):
     self.assertFalse(son_medio_hermanos(remedios, arcadio))
+    
+  def test_felipe_perez_y_martin_perez_son_medios_hermanos(self):
+    self.assertTrue(son_medio_hermanos(felipe_perez, martin_perez))
 
