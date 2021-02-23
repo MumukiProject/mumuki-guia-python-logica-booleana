@@ -3,9 +3,7 @@ name: Lógica booleana
 locale: es
 type: learning
 beta: false
-teacher_info: 'Los ejercicios 7 y 8 están basados en un mismo contexto, por lo que
-  hay una serie de datos del código extra que están repetidos en ambos. Si querés
-  modificar alguno de ellos, asegurate de también modificarlo en el otro :sweat_smile:'
+teacher_info: ''
 language: python
 id_format: "%05d"
 order:
