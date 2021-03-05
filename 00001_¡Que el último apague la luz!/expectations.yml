@@ -7,5 +7,5 @@ expectations:
   binding: usar_cierre
   inspection: Assigns:mochila_abierta
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: usarCierre
+  binding: usar_cierre
   inspection: Not:UsesIf
