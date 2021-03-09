@@ -1,6 +1,6 @@
   
   def test_una_persona_que_se_desempena_en_filosofia_es_de_grecia_y_camina_5kms_al_dia_es_peripatetica(self):
-    self.assertTrue((es_peripatetica("filosofia", "Grecia", 5) or es_peripatetica("filosofía", "Grecia", 5)))
+    self.assertTrue(es_peripatetica("filosofia", "Grecia", 5) or es_peripatetica("filosofía", "Grecia", 5) or es_peripatetica("filosofía", "grecia", 5) or es_peripatetica("filosofia", "grecia", 5))
   
   def test_una_persona_que_se_desempena_en_filosofia_es_de_grecia_y_camina_2kms_al_dia_no_es_peripatetica(self):
     self.assertFalse((es_peripatetica("filosofia", "Grecia", 2) or es_peripatetica("filosofía", "Grecia", 2)))
