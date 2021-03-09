@@ -1,4 +1,4 @@
-Empecemos por algo sencillo, ¿te acordás del operador `not` ? Se lo denomina negación o complemento lógico y sirve para negar un valor booleano. Si tengo el booleano representado por `tiene_hambre`, el complemento será `not tiene_hambre`.
+Empecemos por algo sencillo, ¿te acordás del operador `not` ? Se lo denomina negación o complemento lógico y sirve para negar un valor booleano. Si tengo el booleano representado por `tiene_hambre`, el complemento será `not tiene_hambre`. :no_mouth:
 
 No parece una idea muy interesante pero puede servir para reutilizar la lógica de una función que ya tenemos definida.
 
