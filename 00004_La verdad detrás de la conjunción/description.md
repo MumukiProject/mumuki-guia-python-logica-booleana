@@ -7,33 +7,33 @@ En la lógica booleana, se puede definir el comportamiento de un operador con un
     <th class ="text-center" style="width: 100px">A ^ B</th>
   </tr>
   <tr>
-    <td>V</td>
-    <td>V</td>
-    <td>V</td>
+    <td>Verdadero</td>
+    <td>Verdadero</td>
+    <td>Verdadero</td>
   </tr>
   <tr>
-    <td>V</td>
-    <td>F</td>
-    <td>F</td>
+    <td>Verdadero</td>
+    <td>Falso</td>
+    <td>Falso</td>
   </tr>
   <tr>
-    <td>F</td>
-    <td>V</td>
-    <td>F</td>
+    <td>Falso</td>
+    <td>Verdadero</td>
+    <td>Falso</td>
   </tr>
   <tr>
-    <td>F</td>
-    <td>F</td>
-    <td>F</td>
+    <td>Falso</td>
+    <td>Falso</td>
+    <td>Falso</td>
   </tr>
 </table>
 
 En el mundo de la lógica estas expresiones se llaman _proposiciones_. Pero… ¿qué cosas pueden ser una proposición? :thought_balloon: Sólo hace falta que tengan un valor de verdad, es decir, cualquier expresión booleana puede ser una proposición.
 
-> Para comprobarlo, probá en la consola tu función `es_peripatetico` con los siguientes valores y comprobá si se comporta como en la tabla:
+> Para comprobarlo, probá en la consola tu función `es_peripatetica` con los siguientes valores y comprobá si se comporta como en la tabla:
 >
->* `ム es_peripatetico("filósofo", "griego", 5)`
->* `ム es_peripatetico("atleta", "argentino", 10)`
->* `ム es_peripatetico("filósofo", "argentino", 3)`
->* `ム es_peripatetico("docente", "canadiense", 1)`
+>* `ム es_peripatetica("filosofía", "Grecia", 5)`
+>* `ム es_peripatetica("atletismo", "Argentina", 10)`
+>* `ム es_peripatetica("filosofía", "Argentina", 3)`
+>* `ム es_peripatetica("ingeniería", "Canadá", 1)`
 
