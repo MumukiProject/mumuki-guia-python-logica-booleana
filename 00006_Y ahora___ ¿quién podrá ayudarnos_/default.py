@@ -1,3 +1,3 @@
-def esta_cerrado(es_feriado, dia, horario):
+def no_esta_abierto(es_feriado, dia, horario):
   # ... escribí tu solución acá ...
 
