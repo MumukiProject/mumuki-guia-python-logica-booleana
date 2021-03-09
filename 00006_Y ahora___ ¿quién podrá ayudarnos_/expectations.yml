@@ -1,14 +1,14 @@
 ---
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: esta_cerrado
-  inspection: HasBinding
+  binding: "*"
+  inspection: DeclaresFunction:esta_cerrado
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: es_fin_de_semana
-  inspection: HasBinding
+  binding: "*"
+  inspection: DeclaresFunction:es_fin_de_semana
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: es_dia_de_semana
-  inspection: HasBinding
+  binding: "*"
+  inspection: DeclaresFunction:es_dia_de_semana
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: Except:DoesTypeTest
