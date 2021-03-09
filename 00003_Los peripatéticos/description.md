@@ -9,7 +9,7 @@ Por ejemplo, si cuento con la función...
   return cds_editados >= 10 and recitales_realizados > 25 and grabo_algun_dvd
 ```
 
-...basta con que un cantante no haya grabado un DVD para no ser considerado prolífico, incluso aunque haya editado más de 10 CDs y dado más de 25 recitales.
+...basta con que un cantante no haya grabado un DVD para no ser considerado prolífico, incluso aunque haya editado más de 10 CDs y dado más de 25 recitales. :guitar:
 
 > Definí una función `es_peripatetico` que tome la profesión de una persona, su nacionalidad y la cantidad de kilómetros que camina por día. Alguien es un peripatético cuando es un filósofo griego y le gusta pasear (camina más de 2 kilómetros por día). Ejemplo:
 >
