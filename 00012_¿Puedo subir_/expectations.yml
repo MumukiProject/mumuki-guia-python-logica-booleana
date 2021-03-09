@@ -1,5 +1,5 @@
 ---
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: puede_subirse
-  inspection: HasBinding
+  binding: "*"
+  inspection: DeclaresFunction:puede_subirse
