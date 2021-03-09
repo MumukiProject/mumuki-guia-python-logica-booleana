@@ -2,10 +2,7 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresFunction:esta_cerrado
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "*"
-  inspection: DeclaresFunction:es_fin_de_semana
+  inspection: DeclaresFunction:esta_abierto
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: DeclaresFunction:es_dia_de_semana
@@ -19,5 +16,8 @@ expectations:
   binding: "*"
   inspection: Not:UsesIf
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "*"
+  binding: esta_abierto
   inspection: Uses:dentro_de_horario_bancario
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: esta_abierto
+  inspection: Uses:es_dia_de_semana
