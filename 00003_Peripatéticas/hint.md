@@ -1,1 +1,0 @@
-Recordá que los nombre de países comienzan con mayúsculas. :eyes:
