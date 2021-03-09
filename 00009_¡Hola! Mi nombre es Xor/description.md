@@ -7,24 +7,24 @@ Ahora cambiemos las funciones `tienen_la_misma_madre` y `tienen_el_mismo_padre` 
     <th class ="text-center" style="width: 100px">A ⊻ B</th>
   </tr>
   <tr>
-    <td>V</td>
-    <td>V</td>
-    <td>F</td>
+    <td>Verdadero</td>
+    <td>Verdadero</td>
+    <td>Falso</td>
   </tr>
   <tr>
-    <td>V</td>
-    <td>F</td>
-    <td>V</td>
+    <td>Verdadero</td>
+    <td>Falso</td>
+    <td>Verdadero</td>
   </tr>
   <tr>
-    <td>F</td>
-    <td>V</td>
-    <td>V</td>
+    <td>Falso</td>
+    <td>Verdadero</td>
+    <td>Verdadero</td>
   </tr>
   <tr>
-    <td>F</td>
-    <td>F</td>
-    <td>F</td>
+    <td>Falso</td>
+    <td>Falso</td>
+    <td>Falso</td>
   </tr>
 </table>
 
