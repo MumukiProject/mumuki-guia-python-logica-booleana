@@ -11,11 +11,11 @@ Por ejemplo, si cuento con la función...
 
 ...basta con que un cantante no haya grabado un DVD para no ser considerado prolífico, incluso aunque haya editado más de 10 CDs y dado más de 25 recitales. :guitar:
 
-> Definí una función `es_peripatetico` que tome la profesión de una persona, su nacionalidad y la cantidad de kilómetros que camina por día. Alguien es un peripatético cuando es un filósofo griego y le gusta pasear (camina más de 2 kilómetros por día). Ejemplo:
+> Definí una función `es_peripatetica` que tome el área en que se desempeña una persona, su país de origen y la cantidad de kilómetros que camina por día. Una persona es petipatética cuando se desempeña en filosofía, su país de origen es Grecia y le gusta pasear (camina más de 2 kilómetros por día). Ejemplo:
 >
 > ```python
-> ム es_peripatetico("filósofo", "griego", 5)
+> ム es_peripatetica("filosofía", "Grecia", 5)
 True
-> ム es_peripatetico("profesor", "uruguayo", 1)
+> ム es_peripatetica("ingeniería", "Uruguay", 1)
 False
 > ```
