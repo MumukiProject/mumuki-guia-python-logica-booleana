@@ -33,7 +33,9 @@ El booleano final resultará de operarlas mediante `son_medio_hermanos`:
 </table>
 
 > Probá tu función `son_medio_hermanos` con los siguientes valores y comprobá si se comporta como la tabla:
-
->* `ム son_medio_hermanos(arcadio, aureliano_jose)`
->* `ム son_medio_hermanos(aureliano_segundo, remedios)`
->* `ム son_medio_hermanos(aureliano_jose, remedios)`
+>
+``` python
+ム son_medio_hermanos(arcadio, aureliano_jose)
+ム son_medio_hermanos(aureliano_segundo, remedios)
+ム son_medio_hermanos(aureliano_jose, remedios)
+```
