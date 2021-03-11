@@ -10,5 +10,5 @@ manual_evaluation: false
 choices: []
 goal: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   kind: last_query_equals
-  value: 'def listo():    pass'
+  value: listo()
 name: Precedencia
