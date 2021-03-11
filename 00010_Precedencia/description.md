@@ -23,4 +23,6 @@ def paga_con_tarjeta(se_cobra_interes, tarjeta, efectivo_disponible):
 ム paga_con_tarjeta(True, "mastercard", 215)
 ム paga_con_tarjeta(True, "mastercard", 32)
 ```
-> ... pero podés probar con los que vos quieras. Cuando hayas terminado, pasa al siguiente ejercicio. :relaxed:
+> ... pero podés probar con los que vos quieras. 
+
+> Cuando termines, escribí `listo()`.

@@ -1,3 +1,6 @@
+def listo(): 
+  pass
+
 def cuotas(tarjeta):
   return {
     'visa': 6,
