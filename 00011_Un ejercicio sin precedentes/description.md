@@ -12,4 +12,4 @@ Al igual que en matemática, podemos usar paréntesis para agrupar las operacion
 > El mínimo de edad para realizar el trámite para las mujeres es de 60 años, mientras que para los hombres es 65. En ambos casos, se deben contar con al menos 30 años de aportes.
 
 
-> Ah, y por esta vez te vamos a pedir que no definas otra función para resolverlo. :see_no_evil:
+> Ah, y por esta vez te vamos a pedir que no definas funciones extra para resolverlo. :see_no_evil:
