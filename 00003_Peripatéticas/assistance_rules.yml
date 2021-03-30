@@ -3,5 +3,5 @@ rules:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     only_these_tests_failed:
-    - test_es_necesario_que_filosofia_lleve_tilde_para_saber_si_la_persona_es_peripatetica
+    - Es necesario que filosofia lleve tilde para saber si la persona es peripatetica
   then: no te olvides de la tilde en `"filosofía"
