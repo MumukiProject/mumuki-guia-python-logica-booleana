@@ -1,5 +1,5 @@
   
-  def test_es_necesario_que_filosofia_lleve_tilde_para_saber_si_la_persona_es_peripatetica(self):
+  def test_es_necesario_que_filosofia_lleve_tilde_y_grecia_esté_en_mayusculas_para_saber_si_la_persona_es_peripatetica(self):
     self.assertFalse(es_peripatetica("filosofia", "Grecia", 3))
     self.assertTrue(es_peripatetica("filosofía", "Grecia", 3))
   
