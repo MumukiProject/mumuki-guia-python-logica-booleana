@@ -1,6 +1,7 @@
   
   def test_es_necesario_que_filosofia_lleve_tilde_para_saber_si_la_persona_es_peripatetica(self):
     self.assertFalse(es_peripatetica("filosofia", "Grecia", 3))
+    self.assertTrue(es_peripatetica("filosofía", "Grecia", 3))
   
   def test_una_persona_que_se_desempena_en_filosofia_es_de_grecia_y_camina_5kms_al_dia_es_peripatetica(self):
     self.assertTrue(es_peripatetica("filosofia", "Grecia", 5) or es_peripatetica("filosofía", "Grecia", 5) or es_peripatetica("filosofía", "grecia", 5) or es_peripatetica("filosofia", "grecia", 5))
