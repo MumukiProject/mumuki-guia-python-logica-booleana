@@ -1,4 +1,4 @@
-Todos sabemos que el seguimiento de árboles genealógicos puede tornarse complicado cuando hay muchas personas y relaciones involucradas.
+Sabemos que el seguimiento de árboles genealógicos puede tornarse complicado cuando hay muchas personas y relaciones involucradas.
 
 En la familia Buendía ocurre que:
 
@@ -6,7 +6,7 @@ En la familia Buendía ocurre que:
 * Aureliano José es hijo del Coronel Aureliano y Pilar Ternera,
 * Aureliano Segundo y Remedios son hijos de Arcadio y Sofía De La Piedad.
 
-Nosotros definimos por vos las funciones `madre_de` y `padre_de`:
+Ya definimos por vos las funciones `madre_de` y `padre_de`:
 
 ```python
 ム padre_de(aureliano_jose)
