@@ -32,4 +32,4 @@ Este comportamiento existe como un operador dentro de la lógica y se lo denomin
 
 A diferencia del `and`, `or` y `not`, el `xor` no suele estar definido en los lenguajes. :cry: Sin embargo, ahora que sabés cómo funciona, si alguna vez lo necesitás podés definirlo a mano. :wink:
 
-> Veamos si se entiende: definí la función genérica `xor`, que tome dos booleanos y devuelva el valor de verdad correspondiente.
+> Veamos si se entiende: definí la función genérica `xor`, que tome dos booleanos y retorne el valor de verdad correspondiente.
