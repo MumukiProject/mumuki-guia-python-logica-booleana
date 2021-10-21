@@ -1,14 +1,14 @@
 Ahora pensemos cómo sería la tabla de verdad que representa el comportamiento de la función que acabás de hacer.
+ 
+La proposición es `es_tono_claro`, y el valor de verdad que porte dependerá de cada color que esté evaluando.
 
-Las proposiciones serán `tienen_la_misma_madre` y `tienen_el_mismo_padre`, y los valores de verdad que porten dependerán de qué dos personas estén evaluando.
-
-El booleano final resultará de operarlas mediante `son_medio_hermanos`:
+El booleano final resultará de operar estos colores mediante `tiene_contraste`:
 
 <table class="table table-striped table-bordered table-condensed text-center">
   <tr>
-    <th class ="text-center" style="padding: 5px 8px">tienen la misma madre</th>
-    <th class ="text-center" style="padding: 5px 8px">tienen el mismo padre</th>
-    <th class ="text-center" style="padding: 5px 8px">son medios hermanos</th>
+    <th class ="text-center" style="padding: 5px 8px">la letra tiene tono claro</th>
+    <th class ="text-center" style="padding: 5px 8px">el fondo tiene tono claro</th>
+    <th class ="text-center" style="padding: 5px 8px">tiene contraste</th>
   </tr>
   <tr>
     <td>True</td>
@@ -32,10 +32,8 @@ El booleano final resultará de operarlas mediante `son_medio_hermanos`:
   </tr>
 </table>
 
-> Probá tu función `son_medio_hermanos` con los siguientes valores y comprobá si se comporta como la tabla:
+> Probá tu función `tiene_contraste` con los siguientes valores y comprobá si se comporta como la tabla:
 >
-```python
-ム son_medio_hermanos(aureliano_segundo, remedios)
-ム son_medio_hermanos(aureliano_jose, remedios)
-ム son_medio_hermanos(arcadio, aureliano_jose)
-```
+>* `ム tiene_contraste("amarillo", "beige")`
+>* `ム tiene_contraste("azul", "violeta")`
+>* `ム tiene_contraste("blanco", "negro")`
