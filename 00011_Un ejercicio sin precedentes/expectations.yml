@@ -2,10 +2,10 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresFunction:puede_jubilarse
+  inspection: DeclaresFunction:se_puede_concentrar
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: Except:DoesTypeTest
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: puede_jubilarse
+  binding: se_puede_concentrar
   inspection: Not:UsesIf
