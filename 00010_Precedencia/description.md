@@ -17,11 +17,20 @@ def paga_con_tarjeta(se_cobra_interes, tarjeta, efectivo_disponible):
 
 > Intentá descubrir cuál es la precedencia de las operaciones booleanas. Te damos unos ejemplos de pruebas...
 >
-``` python
-ム paga_con_tarjeta(True, "visa", 320)
-ム paga_con_tarjeta(False, "visa", 80)
-ム paga_con_tarjeta(True, "mastercard", 215)
-ム paga_con_tarjeta(True, "mastercard", 32)
+>``` python
+ムpaga_con_tarjeta(True, "visa", 320)
+```
+>
+>``` python
+ムpaga_con_tarjeta(False, "visa", 80)
+```
+>
+>``` python
+ムpaga_con_tarjeta(True, "mastercard", 215)
+```
+>
+>``` python
+ムpaga_con_tarjeta(True, "mastercard", 32)
 ```
 > ... pero podés probar con los que vos quieras. 
 
