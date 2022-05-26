@@ -34,6 +34,14 @@ El booleano final resultará de operar estos colores mediante `tiene_contraste`:
 
 > Probá tu función `tiene_contraste` con los siguientes valores y comprobá si se comporta como la tabla:
 >
->* `ム tiene_contraste("amarillo", "beige")`
->* `ム tiene_contraste("azul", "violeta")`
->* `ム tiene_contraste("blanco", "negro")`
+>``` python
+ムtiene_contraste("amarillo", "beige")
+```
+>
+>``` python
+ムtiene_contraste("azul", "violeta")
+``` 
+>
+>``` javaspythoncript
+ムtiene_contraste("blanco", "negro")
+```
