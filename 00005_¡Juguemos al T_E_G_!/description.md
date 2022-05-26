@@ -10,11 +10,19 @@ def gano(cumplio_objetivo_secreto, cantidad_de_paises_conquistados):
 
 > Probá en la consola las siguientes expresiones:
 >
-``` python
-ム gano(True, 25)
-ム gano(False, 30)
-ム gano(False, 20)
-ム gano(True, 31)
+>``` python
+ムgano(True, 25)
 ```
-
+>
+>``` python
+ムgano(False, 30)
+``` 
+>
+>``` python
+ムgano(False, 20)
+``` 
+>
+>``` python
+ムgano(True, 31)
+```
 > ¿Te animás a construir la tabla de verdad de la disyunción lógica?
