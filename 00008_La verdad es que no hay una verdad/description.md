@@ -42,6 +42,6 @@ El booleano final resultará de operar estos colores mediante `tiene_contraste`:
 ムtiene_contraste("azul", "violeta")
 ``` 
 >
->``` javaspythoncript
+>``` python
 ムtiene_contraste("blanco", "negro")
 ```
