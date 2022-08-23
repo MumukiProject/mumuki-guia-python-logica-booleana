@@ -1,4 +1,4 @@
-Si prestaste atención a la función anterior, habrás notado que la operación con mayor precedencia es la negación `!`, seguida de la conjunción `&&` y por último la disyunción `||`. ¿Pero qué pasa si quiero alterar el orden en que se resuelven? :thought_balloon:
+Si prestaste atención a la función anterior, habrás notado que la operación con mayor precedencia es la negación `not`, seguida de la conjunción `&&` y por último la disyunción `||`. ¿Pero qué pasa si quiero alterar el orden en que se resuelven? :thought_balloon:
 
 Al igual que en matemática, podemos usar paréntesis para agrupar las operaciones que queremos que se realicen primero.
 
