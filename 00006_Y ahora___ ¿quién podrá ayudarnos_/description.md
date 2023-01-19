@@ -1,6 +1,6 @@
 ¿Nunca te pasó haber querido hacer algún trámite en el banco y llegar sólo para darte cuenta de que estaba cerrado? A Dory :tropical_fish: sí, por lo que vamos a desarrollar una función que ayude a la gente despistada como ella.
 
-Sabemos que el banco está abierto los días de semana que no son [feriados](https://es.wikipedia.org/wiki/D%C3%ADa_festivo) y siempre y cuando estamos dentro del horario bancario.
+Sabemos que el banco está abierto los días de semana que no son [feriados](https://es.wikipedia.org/wiki/D%C3%ADa_festivo) y siempre y cuando estemos dentro del horario bancario.
 
 Ya están definidas las funciones:
 
