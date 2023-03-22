@@ -16,4 +16,5 @@ False
 >ム se_puede_concentrar('té', 95, False)
 >False
 ```
-> ¡Intentá resolverlo en una única función! Después vamos a ver cómo quedaría si delegamos. 
+> ¡Intentá resolverlo en una única función! Después vamos a ver cómo quedaría si dividiéramos el problema en varias funciones. 
+

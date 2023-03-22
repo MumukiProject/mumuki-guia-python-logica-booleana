@@ -1,4 +1,4 @@
-¿Y si delegamos? Podríamos separar la lógica de la siguiente manera:
+¿Y si _delegamos_, es decir, dividimos nuestro problema principal en varias funciones más pequeñas? Podríamos separar la lógica de la siguiente manera:
  
 ```python
 def se_puede_concentrar(infusion, temperatura, estaProgramando):
