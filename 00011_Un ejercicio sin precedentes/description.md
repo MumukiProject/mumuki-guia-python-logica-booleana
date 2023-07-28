@@ -1,10 +1,10 @@
-Si prestaste atención a la función anterior, habrás notado que la operación con mayor precedencia es la negación `not`, seguida de la conjunción `&&` y por último la disyunción `||`. ¿Pero qué pasa si quiero alterar el orden en que se resuelven? :thought_balloon:
+Si prestaste atención a la función anterior, habrás notado que la operación con mayor precedencia es la negación `not`, seguida de la conjunción `and` y por último la disyunción `or`. ¿Pero qué pasa si quiero alterar el orden en que se resuelven? :thought_balloon:
 
 Al igual que en matemática, podemos usar paréntesis para agrupar las operaciones que queremos que se realicen primero.
 
-Delfi se puede concentrar cuando programa y toma infusiones, pero no cualquier infusión. Tiene que ser mate :mate: a exactamente 80ºC o té :tea: que esté a por lo menos 95ºC.
-
-> Definí la función `se_puede_concentrar` que recibe una bebida, su temperatura y un booleano que nos dice si Delfi está programando:
+> Delfi se puede concentrar cuando programa y toma infusiones, pero no cualquier infusión. Tiene que ser mate :mate: a exactamente 80ºC o té :tea: que esté a por lo menos 95ºC. 
+> 
+> Sabiendo esto, definí la función `se_puede_concentrar` que recibe una bebida, su temperatura y un booleano que nos dice si Delfi está programando:
 >
 ``` python
 >ム se_puede_concentrar('té', 100, True)
