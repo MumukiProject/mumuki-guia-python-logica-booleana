@@ -10,6 +10,9 @@ manual_evaluation: false
 progressive_expectations: false
 choices: []
 goal:
-  kind: last_query_outputs
-  output: 'True'
+  kind: queries_match
+  regexps:
+  - ^tiene_contraste\s*\(\s*\"amarillo\"\s*\,\s*\"beige\"\s*\)\s*
+  - ^tiene_contraste\s*\(\s*\"azul\"\s*\,\s*\"violeta\"\s*\)\s*
+  - ^tiene_contraste\s*\(\s*\"blanco\"\s*\,\s*\"negro\"\s*\)\s*
 name: La verdad es que no hay una verdad
