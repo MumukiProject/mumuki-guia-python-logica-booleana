@@ -10,6 +10,10 @@ manual_evaluation: false
 progressive_expectations: false
 choices: []
 goal:
-  kind: last_query_matches
-  regexp: gano(\W*True\W*,\W*31\W*)
+  kind: queries_match
+  regexps:
+  - "^gano\\s*\\(\\s*True\\s*\\,\\s*25\\s*\\)\\s*"
+  - "^gano\\s*\\(\\s*False\\s*\\,\\s*30\\s*\\)\\s*"
+  - "^gano\\s*\\(\\s*False\\s*\\,\\s*20\\s*\\)\\s*"
+  - "^gano\\s*\\(\\s*True\\s*\\,\\s*31\\s*\\)\\s*"
 name: "¡Juguemos al T.E.G.!"
